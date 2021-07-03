@@ -1,0 +1,51 @@
+.history-container{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 100px;
+    top: 70px;
+    overflow: auto;
+}
+
+.message-container{
+width: 100%;
+}
+
+.me-box{
+    float: right;
+    background-color:cornflowerblue;
+
+}
+
+.interlocutor-box{
+    float: left;
+    background-color: gainsboro;
+   
+}
+
+.interlocutor-box,.me-box{    
+    border-radius: 8px;
+    color: black;   
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+
+.msg-avatar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.date{
+    font-size: 10px;
+    color:gray;
+}
